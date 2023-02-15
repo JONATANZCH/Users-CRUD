@@ -1,0 +1,72 @@
+.userCard {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+}
+
+.userCard__info {
+    padding: 30px 30px;
+}
+
+.userCard__list {
+    list-style: none;
+    margin: 15px 0 15px 0;
+    padding: 0;
+    line-height: 27px;
+}
+
+.userCard__name {
+    margin: 0;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    padding-bottom: 15px;
+}
+
+.userCard__list span {
+    display: block;
+    text-transform: uppercase;
+    color: rgb(154, 154, 154);
+}
+
+.userCard__footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.userCard__btn {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 8px;
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    list-style: none;
+    cursor: pointer;
+    transition: transform 400ms ease;
+    transition: background 500ms ease;
+}
+.userCard__btn:hover {
+    transform: scale(0.9);
+}
+
+.userCard__btn:nth-child(1):hover {
+    background-color: rgb(132, 1, 1);
+    color: white;
+}
+.userCard__btn:nth-child(2):hover {
+    background-color: #000000;
+    color: white;
+}
+
+.userCard__btn-trash,
+.userCard__btn-pencil {
+    text-decoration: none;
+}
+
+
